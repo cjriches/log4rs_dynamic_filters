@@ -1,0 +1,27 @@
+[package]
+name = "log4rs_dynamic_filters"
+version = "0.1.0"
+authors = ["Chris Riches"]
+edition = "2021"
+description = "Programmatically controlled filters for log4rs"
+readme = "README.md"
+repository = "https://github.com/cjriches/log4rs_dynamic_filters"
+license = "MIT OR Apache-2.0"
+
+[dependencies.anyhow]
+version = "1.0.65"
+
+[dependencies.lazy_static]
+version = "1.4.0"
+
+[dependencies.log]
+version = "0.4.17"
+
+[dependencies.log4rs]
+version = "1.1.1"
+
+[dependencies.serde]
+version = "1.0.145"
+
+[dev-dependencies.log4rs_test_utils]
+version = "0.1.0"
