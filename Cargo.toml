@@ -1,6 +1,6 @@
 [package]
 name = "log4rs_dynamic_filters"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Chris Riches"]
 edition = "2021"
 description = "Programmatically controlled filters for log4rs"
