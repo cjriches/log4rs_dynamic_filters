@@ -4,8 +4,8 @@ log4rs Dynamic Filters
 This crate provides filters for `log4rs` that can be dynamically controlled at runtime.
 
 Without this crate, `log4rs` can be configured in one of two ways:
-* Programmatically constructing the `Config`
-* Reading from a `yaml` file
+1. Programmatically constructing the `Config`
+2. Reading from a `.yaml` file
 
 The former is verbose and inflexible; initialising the logger in this way does however give you a `Handle` that can later be used to replace the configuration.
 The latter is simple and flexible, even allowing the configuration to be updated during runtime without restarting the application.
