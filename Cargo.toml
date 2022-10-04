@@ -1,6 +1,6 @@
 [package]
 name = "log4rs_dynamic_filters"
-version = "0.1.1"
+version = "0.1.2"
 authors = ["Chris Riches"]
 edition = "2021"
 description = "Programmatically controlled filters for log4rs"
@@ -28,6 +28,6 @@ default-features = false
 features = ["derive"]
 
 [dev-dependencies.log4rs_test_utils]
-version = "0.2.0"
+version = "0.2.1"
 default-features = false
 features = ["log_testing"]

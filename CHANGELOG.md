@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## v0.1.2
 * Removed unnecessary features from dependencies.
   This avoids unnecessarily transitively enabling them in dependent crates.
 
