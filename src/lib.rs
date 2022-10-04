@@ -24,7 +24,7 @@
 //! already-running application.
 //!
 //! This crate currently provides one dynamic filter: [`DynamicLevelFilter`],
-//! the dynamic equivalent of [`ThresholdFilter`](log4rs::filter::threshold::ThresholdFilter).
+//! the dynamic equivalent of `ThresholdFilter`.
 //!
 //! # Example usage
 //! log4rs.yaml:
