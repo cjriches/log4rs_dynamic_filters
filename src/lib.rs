@@ -113,7 +113,7 @@ mod tests {
         encode::{pattern::PatternEncoder, Encode},
         Config,
     };
-    use log4rs_test_utils::{logging_test_setup, LogsHandle, MockAppender};
+    use log4rs_test_utils::log_testing::{logging_test_setup, LogsHandle, MockAppender};
     use std::sync::MutexGuard;
 
     fn test_setup(filter: Box<dyn Filter>) -> (MutexGuard<'static, ()>, LogsHandle) {
