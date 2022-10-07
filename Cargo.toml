@@ -7,6 +7,7 @@ description = "Programmatically controlled filters for log4rs"
 readme = "README.md"
 repository = "https://github.com/cjriches/log4rs_dynamic_filters"
 license = "MIT OR Apache-2.0"
+keywords = ["log", "logging", "log4rs", "filters"]
 
 [dependencies.anyhow]
 version = "1.0.65"
