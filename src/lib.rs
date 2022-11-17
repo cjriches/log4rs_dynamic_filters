@@ -94,7 +94,7 @@ lazy_static! {
 /// # The initial log level of the filter.
 /// default: warn
 /// ```
-#[derive(Debug)]
+#[derive(Debug, Clone, Eq, PartialEq)]
 pub struct DynamicLevelFilter {
     name: String,
 }

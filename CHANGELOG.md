@@ -1,5 +1,8 @@
 # Changelog
 
+## Unreleased
+* Derived `Clone`, `PartialEq`, and `Eq` traits for `DynamicLevelFilter`.
+
 ## v0.1.2
 * Removed unnecessary features from dependencies.
   This avoids unnecessarily transitively enabling them in dependent crates.
