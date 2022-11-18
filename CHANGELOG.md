@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## v0.1.3
 * Derived `Clone`, `PartialEq`, and `Eq` traits for `DynamicLevelFilter`.
 
 ## v0.1.2
